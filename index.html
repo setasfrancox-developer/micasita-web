@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiCasita · Guardería campestre canina en Palmira</title>
+  <meta name="description" content="MiCasita es una guardería campestre canina en La Buitrera de Palmira, Valle del Cauca: días de campo, juego, cuidado y calma para tu perro.">
+  <link rel="icon" href="imagenes/logo.jpeg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ===== Barra de navegación ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#inicio" aria-label="MiCasita, ir al inicio">
+        <img class="logo__mark" src="imagenes/logo-circular.png" alt="" width="1564" height="1564">
+        <span class="logo__text">
+          <span class="logo__name">MiCasita</span>
+          <span class="logo__tagline">Guardería campestre canina</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="menu-principal" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#resenas">Reseñas</a>
+        <a class="nav__cta" href="#contacto">Contacto</a>
+      </nav>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <h1>Todo un hogar para tu mejor amigo, <span class="titulo-acento">en pleno campo</span>.</h1>
+          <p class="hero__text">
+            Juego, calma y mucha compañía. Un espacio seguro para correr, socializar
+            y descansar al sol, con rutinas adaptadas a cada perro.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#contacto">
+              Contacta con nosotros
+            </a>
+            <a class="button button--ghost" href="#servicios">Descubre los servicios</a>
+          </div>
+
+          <div class="hero__trust">
+            <span class="hero__pin" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </span>
+
+            <p>
+              <strong>La Buitrera de Palmira</strong>
+              Valle del Cauca
+            </p>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <figure class="hero__photo">
+            <img src="imagenes/hero.jpg" alt="Dos perros de MiCasita descansando sobre una plataforma de césped en el jardín" width="1295" height="1400">
+          </figure>
+          <div class="hero__card">
+            <span class="hero__card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <ellipse cx="12" cy="16.5" rx="5" ry="4"/>
+                <ellipse cx="5.6" cy="11.3" rx="1.9" ry="2.5" transform="rotate(-20 5.6 11.3)"/>
+                <ellipse cx="9.4" cy="6.6" rx="1.9" ry="2.6" transform="rotate(-8 9.4 6.6)"/>
+                <ellipse cx="14.6" cy="6.6" rx="1.9" ry="2.6" transform="rotate(8 14.6 6.6)"/>
+                <ellipse cx="18.4" cy="11.3" rx="1.9" ry="2.5" transform="rotate(20 18.4 11.3)"/>
+              </svg>
+            </span>
+            <div>
+              <strong>Aquí se viene a ser feliz</strong>
+              <span>Juego, campo y siestas al sol.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===== Quiénes somos ===== -->
+    <section class="section about" id="nosotros">
+      <div class="container about__grid">
+        <div class="about__media" data-reveal>
+          <figure class="about__photo about__photo--main">
+            <img src="imagenes/nosotros.jpg" alt="Tres perros felices posando juntos en el jardín de MiCasita" width="1110" height="1200" loading="lazy">
+          </figure>
+          <figure class="about__photo about__photo--small">
+            <img src="imagenes/pasoapaso.jpg" alt="Varios perros jugando y socializando en el espacio exterior de MiCasita" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="about__content" data-reveal>
+          <h2><span class="about__title-line">Más que una guardería,</span><span class="about__title-line titulo-acento">una familia.</span></h2>
+          <p>
+            Sabemos que dejar a tu perro al cuidado de otras personas requiere confianza.
+            Por eso hemos creado un espacio pensado para que ellos estén felices, seguros
+            y acompañados.
+          </p>
+
+
+          <ul class="about__list">
+            <li>
+              <span class="check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 6 9 17l-5-5"/>
+                </svg>
+              </span>
+              Mucho cariño — Atención personalizada para cada perro.
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 6 9 17l-5-5"/>
+                </svg>
+              </span>
+              Espacio seguro — Un entorno preparado para jugar y descansar.
+            </li>
+            <li>
+              <span class="check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 6 9 17l-5-5"/>
+                </svg>
+              </span>
+              Diversión asegurada — Juegos y compañía durante todo el día.
+            </li>
+          </ul>
+
+          <a class="text-link" href="#contacto">
+            Ven a conocernos
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Servicios ===== -->
+    <section class="section services" id="servicios">
+      <div class="container">
+        <div class="section__head section__head--center" data-reveal>
+          <div>
+            <h2>Todo lo que necesita,<br><span class="titulo-acento">en un mismo sitio</span>.</h2>
+          </div>
+          <p class="section__intro">
+            Plaza fija, días sueltos, educación o una celebración: todo pasa en el
+            mismo campo y con el mismo equipo de siempre.
+          </p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card" data-reveal>
+            <figure>
+              <img src="imagenes/guarderia.jpg" alt="Perro sonriendo en el jardín de MiCasita" width="1200" height="927" loading="lazy">
+            </figure>
+            <div class="service-card__body">
+              <span class="service-card__tag">Estancia</span>
+              <h3>Guardería</h3>
+              <p>Plaza fija con rutina estable y aviso diario.</p>
+              <a class="service-card__link" href="servicio-guarderia.html" aria-label="Ver el detalle de Guardería">
+                Ver detalle
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"/>
+                  <path d="m13 6 6 6-6 6"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="service-card" data-reveal>
+            <figure>
+              <img src="imagenes/pasadia.jpg" alt="Perro jugando en una piscina de bolas en MiCasita" width="962" height="1000" loading="lazy">
+            </figure>
+            <div class="service-card__body">
+              <span class="service-card__tag">Todos los miércoles</span>
+              <h3>Pasadía</h3>
+              <p>Día completo en el campo con transporte.</p>
+              <a class="service-card__link" href="servicio-pasadia.html" aria-label="Ver el detalle de Pasadía">
+                Ver detalle
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"/>
+                  <path d="m13 6 6 6-6 6"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="service-card" data-reveal>
+            <figure>
+              <img src="imagenes/colegio.jpg" alt="Perro con camiseta amarilla en el campo de juego de MiCasita" width="1000" height="844" loading="lazy">
+            </figure>
+            <div class="service-card__body">
+              <span class="service-card__tag">Educación</span>
+              <h3>Colegio canino</h3>
+              <p>Obediencia básica y socialización en grupo.</p>
+              <a class="service-card__link" href="servicio-colegio-canino.html" aria-label="Ver el detalle de Colegio canino">
+                Ver detalle
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"/>
+                  <path d="m13 6 6 6-6 6"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="service-card" data-reveal>
+            <figure>
+              <img src="imagenes/cumpleanos.jpg" alt="Perro con un gorro de cumpleaños celebrando su día" width="669" height="1000" loading="lazy">
+            </figure>
+            <div class="service-card__body">
+              <span class="service-card__tag">Celebración</span>
+              <h3>Cumpleaños</h3>
+              <p>Su día especial con juegos y amigos.</p>
+              <a class="service-card__link" href="servicio-cumpleanos.html" aria-label="Ver el detalle de Cumpleaños">
+                Ver detalle
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"/>
+                  <path d="m13 6 6 6-6 6"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="service-card" data-reveal>
+            <figure>
+              <img src="imagenes/bano.jpg" alt="Perro recién peinado después de su baño en MiCasita" width="666" height="1000" loading="lazy">
+            </figure>
+            <div class="service-card__body">
+              <span class="service-card__tag">Higiene</span>
+              <h3>Baño y cepillado</h3>
+              <p>Baño, cepillado y secado impecable.</p>
+              <a class="service-card__link" href="servicio-bano-cepillado.html" aria-label="Ver el detalle de Baño y cepillado">
+                Ver detalle
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"/>
+                  <path d="m13 6 6 6-6 6"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="service-card" data-reveal>
+            <figure>
+              <img src="imagenes/transporte.jpg" alt="Camioneta de MiCasita aparcada junto al campo donde juegan los perros" width="1200" height="962" loading="lazy">
+            </figure>
+            <div class="service-card__body">
+              <span class="service-card__tag">Recogida</span>
+              <h3>Transporte</h3>
+              <p>Recogida y regreso a tu puerta, sin prisas.</p>
+              <a class="service-card__link" href="servicio-transporte.html" aria-label="Ver el detalle de Transporte">
+                Ver detalle
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"/>
+                  <path d="m13 6 6 6-6 6"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Beneficios ===== -->
+    <section class="section benefits">
+      <div class="container">
+        <div class="section__head section__head--center" data-reveal>
+          <h2>Así son sus días <span class="titulo-acento">en el campo</span>.</h2>
+        </div>
+
+        <ul class="feature-grid">
+          <li data-reveal>
+            <article class="feature-card">
+              <span class="feature-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M7 16a4 4 0 0 1-.6-7.95 5 5 0 0 1 9.7 1.1A3.5 3.5 0 0 1 17 16H7Z"/>
+                  <path d="M12 16v5"/>
+                </svg>
+              </span>
+              <h3>Amplios espacios verdes</h3>
+              <p>Campo abierto para correr, explorar y descansar a la sombra.</p>
+            </article>
+          </li>
+
+          <li data-reveal>
+            <article class="feature-card">
+              <span class="feature-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 5.9a5 5 0 0 0-7.1 0L12 7.6l-1.7-1.7a5 5 0 0 0-7.1 7.1L12 21l8.8-8a5 5 0 0 0 0-7.1Z"/>
+                </svg>
+              </span>
+              <h3>Rutinas adaptadas</h3>
+              <p>Grupos pequeños y actividad ajustada a su edad y su energía.</p>
+            </article>
+          </li>
+
+          <li data-reveal>
+            <article class="feature-card">
+              <span class="feature-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <ellipse cx="12" cy="16.5" rx="5" ry="4"/>
+                  <ellipse cx="5.6" cy="11.3" rx="1.9" ry="2.5" transform="rotate(-20 5.6 11.3)"/>
+                  <ellipse cx="9.4" cy="6.6" rx="1.9" ry="2.6" transform="rotate(-8 9.4 6.6)"/>
+                  <ellipse cx="14.6" cy="6.6" rx="1.9" ry="2.6" transform="rotate(8 14.6 6.6)"/>
+                  <ellipse cx="18.4" cy="11.3" rx="1.9" ry="2.5" transform="rotate(20 18.4 11.3)"/>
+                </svg>
+              </span>
+              <h3>Juegos, socialización y mucho cariño</h3>
+              <p>Juego con otros perros y mimos de sobra durante todo el día.</p>
+            </article>
+          </li>
+
+          <li data-reveal>
+            <article class="feature-card">
+              <span class="feature-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.5 5h-5L8 7H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-1.5-2Z"/>
+                  <circle cx="12" cy="13" r="3.5"/>
+                </svg>
+              </span>
+              <h3>Te enviamos fotos y videos</h3>
+              <p>Al final del día recibes imágenes suyas para ver cómo lo ha pasado.</p>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Cómo funciona ===== -->
+    <section class="section how" id="como-funciona">
+      <div class="container how__grid">
+        <div class="how__media" data-reveal>
+          <img src="imagenes/pasoapaso.jpg" alt="Perros corriendo y jugando juntos en el campo de MiCasita" loading="lazy">
+        </div>
+
+        <div class="how__content" data-reveal>
+          <h2>Cómo funciona, <span class="titulo-acento">paso a paso</span>.</h2>
+          <p class="how__intro">
+            Sin letra pequeña. Nos cuentas qué necesita tu perro, lo conocemos,
+            viene un día de prueba gratis y, si encaja, eliges sus días.
+          </p>
+
+          <ol class="steps">
+            <li>
+              <span class="steps__num" aria-hidden="true">01</span>
+              <div>
+                <h3>Escríbenos</h3>
+                <p>Cuéntanos su edad, su carácter y los días que necesitas. Respondemos en menos de 24 horas hábiles.</p>
+              </div>
+            </li>
+            <li>
+              <span class="steps__num" aria-hidden="true">02</span>
+              <div>
+                <h3>Visita y horarios</h3>
+                <p>Ven con él a La Buitrera unos 30 minutos. Te enseñamos el espacio, las rutinas y los precios.</p>
+              </div>
+            </li>
+            <li>
+              <span class="steps__num" aria-hidden="true">03</span>
+              <div>
+                <h3>Día de prueba</h3>
+                <p>Una jornada corta y gratuita, sin transporte. Lo traes tú y al recogerlo te contamos cómo ha ido.</p>
+              </div>
+            </li>
+            <li>
+              <span class="steps__num" aria-hidden="true">04</span>
+              <div>
+                <h3>Elige sus días</h3>
+                <p>Fijamos plaza, pasadías y, si lo necesitas, transporte. Los cambios se avisan por WhatsApp.</p>
+              </div>
+            </li>
+          </ol>
+
+          <a class="button button--honey" href="#contacto">Quiero empezar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Reseñas ===== -->
+    <section class="section reviews" id="resenas">
+      <div class="container">
+        <div class="section__head section__head--center" data-reveal>
+          <h2>Familias que ya son <span class="titulo-acento">de la casa</span>.</h2>
+          <p class="section__intro">
+            Opiniones de personas que confiaron en nosotros y de perros
+            que ahora vienen con ganas.
+          </p>
+        </div>
+
+        <div class="carousel">
+          <div class="carousel__track" id="reviews-track" role="region" aria-roledescription="carrusel" aria-label="Reseñas de clientes" tabindex="0">
+            <figure class="review">
+              <div class="review__stars" aria-hidden="true">★★★★★</div>
+              <span class="sr-only">5 de 5 estrellas</span>
+              <blockquote>
+                “Pepito vuelve a casa agotado y feliz. Se nota que ha pasado el día
+                jugando, y eso para mí vale más que cualquier cosa.”
+              </blockquote>
+              <figcaption>
+                <span class="review__avatar" aria-hidden="true">L</span>
+                <div>
+                  <strong>Lucía G.</strong>
+                  <span>Mamá de Pepito</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="review">
+              <div class="review__stars" aria-hidden="true">★★★★★</div>
+              <span class="sr-only">5 de 5 estrellas</span>
+              <blockquote>
+                “Lo que más me gusta es la tranquilidad con la que me cuentan cómo
+                ha ido el día. Y que mi perra vaya corriendo hacia la puerta dice mucho.”
+              </blockquote>
+              <figcaption>
+                <span class="review__avatar" aria-hidden="true">M</span>
+                <div>
+                  <strong>Marta R.</strong>
+                  <span>Mamá de Nala</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="review">
+              <div class="review__stars" aria-hidden="true">★★★★★</div>
+              <span class="sr-only">5 de 5 estrellas</span>
+              <blockquote>
+                “Buscábamos un sitio sin jaulas y con espacio de verdad. MiCasita
+                es exactamente eso: campo, calma y gente que quiere a los perros.”
+              </blockquote>
+              <figcaption>
+                <span class="review__avatar" aria-hidden="true">J</span>
+                <div>
+                  <strong>Javier M.</strong>
+                  <span>Papá de Bruno</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="review">
+              <div class="review__stars" aria-hidden="true">★★★★★</div>
+              <span class="sr-only">5 de 5 estrellas</span>
+              <blockquote>
+                “Es la primera vez que dejo a Lola y no he podido estar más
+                tranquila. Me contaron cómo había ido el día y volvió feliz.”
+              </blockquote>
+              <figcaption>
+                <span class="review__avatar" aria-hidden="true">C</span>
+                <div>
+                  <strong>Carmen P.</strong>
+                  <span>Mamá de Lola</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="review">
+              <div class="review__stars" aria-hidden="true">★★★★★</div>
+              <span class="sr-only">5 de 5 estrellas</span>
+              <blockquote>
+                “Un sitio precioso y un trato increíble. Se nota que aman lo que
+                hacen y que los perros están a gusto.”
+              </blockquote>
+              <figcaption>
+                <span class="review__avatar" aria-hidden="true">D</span>
+                <div>
+                  <strong>Diego S.</strong>
+                  <span>Papá de Rocco</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="review">
+              <div class="review__stars" aria-hidden="true">★★★★★</div>
+              <span class="sr-only">5 de 5 estrellas</span>
+              <blockquote>
+                “Canela es mayor y necesita calma. Se adaptaron a su ritmo desde
+                el primer día y eso se agradece muchísimo.”
+              </blockquote>
+              <figcaption>
+                <span class="review__avatar" aria-hidden="true">E</span>
+                <div>
+                  <strong>Elena V.</strong>
+                  <span>Mamá de Canela</span>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="carousel__controls">
+            <button type="button" class="carousel__button carousel__button--prev" aria-label="Reseña anterior" aria-controls="reviews-track">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M19 12H5M11 18l-6-6 6-6"/>
+              </svg>
+            </button>
+            <button type="button" class="carousel__button carousel__button--next" aria-label="Reseña siguiente" aria-controls="reviews-track">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contacto ===== -->
+    <section class="section contact" id="contacto">
+      <div class="container contact__grid">
+        <div class="contact__info" data-reveal>
+          <h2>¿Tienes alguna pregunta o quieres <span class="titulo-acento">visitarnos</span>?</h2>
+          <p>
+            Escríbenos o ven a conocer MiCasita. ¡Nos encantará
+            recibirte a ti y a tu perro!
+          </p>
+
+          <ul class="contact__details">
+            <li>
+              <span class="contact__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </span>
+              <div>
+                <span>Teléfono</span>
+                <a href="tel:+573006086132">+57 300 608 6132</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8z"/>
+                </svg>
+              </span>
+              <div>
+                <span>WhatsApp</span>
+                <a href="https://wa.me/573006086132" target="_blank" rel="noopener noreferrer">Escríbenos por WhatsApp</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2"/>
+                  <path d="m22 7-10 6L2 7"/>
+                </svg>
+              </span>
+              <div>
+                <span>Correo electrónico</span>
+                <a href="mailto:micasitacanina@gmail.com">micasitacanina@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </span>
+              <div>
+                <span>Dónde estamos</span>
+                <p><a href="https://www.google.com/maps/search/?api=1&query=La+Buitrera+de+Palmira,+km+7,+Palmira,+Valle+del+Cauca" target="_blank" rel="noopener noreferrer">La Buitrera de Palmira, km 7</a></p>
+              </div>
+            </li>
+            <li>
+              <span class="contact__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M12 6v6l4 2"/>
+                </svg>
+              </span>
+              <div>
+                <span>Horario</span>
+                <p>Lunes a viernes, 8:00–19:00<br>Sábados, 9:00–14:00</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="contact__note">
+            <p>Respondemos en menos de 24 horas hábiles. Si necesitas una respuesta rápida, llámanos.</p>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap" data-reveal>
+          <form class="contact__form" id="contact-form" novalidate>
+            <h3>Escríbenos</h3>
+            <p class="contact__form-intro">Los campos con * son obligatorios.</p>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="nombre">Nombre <span aria-hidden="true">*</span></label>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Tu nombre" aria-describedby="error-nombre" required>
+                <p class="field__error" id="error-nombre" aria-live="polite"></p>
+              </div>
+
+              <div class="field">
+                <label for="correo">Correo electrónico <span aria-hidden="true">*</span></label>
+                <input type="email" id="correo" name="correo" autocomplete="email" placeholder="tu@correo.com" aria-describedby="error-correo" required>
+                <p class="field__error" id="error-correo" aria-live="polite"></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="telefono">Teléfono <span aria-hidden="true">*</span></label>
+              <input type="tel" id="telefono" name="telefono" autocomplete="tel" placeholder="+57 300 000 0000" aria-describedby="error-telefono" required>
+              <p class="field__error" id="error-telefono" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="mensaje">Mensaje <span aria-hidden="true">*</span></label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu consulta o lo que necesitas para tu perro (fechas, servicios, etc.)" aria-describedby="error-mensaje" required></textarea>
+              <p class="field__error" id="error-mensaje" aria-live="polite"></p>
+            </div>
+
+            <div class="field field--check">
+              <label class="check-line" for="acepto">
+                <input type="checkbox" id="acepto" name="acepto" aria-describedby="error-acepto" required>
+                <span>He leído y acepto la <a href="politica-de-datos.html">política de tratamiento de datos</a>. <span aria-hidden="true">*</span></span>
+              </label>
+              <p class="field__error" id="error-acepto" aria-live="polite"></p>
+            </div>
+
+            <button type="submit" class="button button--primary button--full">
+              Enviar mensaje
+            </button>
+
+            <div class="form__success" id="form-success" role="status" aria-live="polite" tabindex="-1" hidden>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 6 9 17l-5-5"/>
+              </svg>
+              <p id="success-text"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Pie de página ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="logo logo--footer" href="#inicio" aria-label="MiCasita, ir al inicio">
+          <img class="logo__mark" src="imagenes/logo-circular.png" alt="" width="1564" height="1564">
+          <span class="logo__text">
+            <span class="logo__name">MiCasita</span>
+            <span class="logo__tagline">Guardería campestre canina</span>
+          </span>
+        </a>
+        <p>
+          Guardería campestre en La Buitrera de Palmira.
+          Plazas fijas y transporte.
+        </p>
+      </div>
+
+      <div>
+        <h3>Explora</h3>
+        <ul>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#resenas">Reseñas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contacto</h3>
+        <ul>
+          <li><a href="tel:+573006086132">+57 300 608 6132</a></li>
+          <li><a href="https://wa.me/573006086132" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+          <li><a href="mailto:micasitacanina@gmail.com">micasitacanina@gmail.com</a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&query=La+Buitrera+de+Palmira,+km+7,+Palmira,+Valle+del+Cauca" target="_blank" rel="noopener noreferrer">La Buitrera de Palmira, km 7</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Horario</h3>
+        <ul>
+          <li>Lunes a viernes</li>
+          <li>8:00 – 19:00</li>
+          <li>Sábados</li>
+          <li>9:00 – 14:00</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Síguenos</h3>
+        <ul class="footer__social">
+          <li><a href="https://www.instagram.com/micasitacanina/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://www.facebook.com/micasitaguarderiacanina/?ref=NONE_xav_ig_profile_page_web#" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="https://www.tiktok.com/search?q=micasitacanina&t=1794128139464" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© 2026 MiCasita · Guardería campestre canina</p>
+      <p>Hecho con cariño en el campo.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
