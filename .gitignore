@@ -1,1 +1,10 @@
 .DS_Store
+.agents/
+.opencode/
+.vscode/
+AGENTS.md
+MEMORY.md
+opencode.json
+skills-lock.json
+docs/
+specs/
