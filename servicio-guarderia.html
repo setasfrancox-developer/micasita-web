@@ -42,9 +42,27 @@
     <!-- ===== Detalle del servicio ===== -->
     <section class="section service-detail">
       <div class="container service-detail__grid">
-        <figure class="service-detail__photo" data-reveal>
-          <img src="imagenes/guarderia.jpg" alt="Perro sonriendo en el jardín de MiCasita" width="1200" height="927">
-        </figure>
+        <div class="service-detail__media" data-reveal>
+          <!-- Cambia el poster y el archivo .mp4 por los tuyos (carpeta imagenes/videos). -->
+          <figure class="service-detail__video">
+            <video controls preload="metadata" playsinline poster="imagenes/guarderia.jpg">
+              <source src="imagenes/videos/guarderia.mp4" type="video/mp4">
+              Tu navegador no puede reproducir este vídeo.
+            </video>
+          </figure>
+
+          <div class="service-detail__thumbs">
+            <a href="imagenes/nosotros.jpg" aria-label="Ver en grande: tres perros en el jardín de MiCasita">
+              <img src="imagenes/nosotros.jpg" alt="Tres perros posando juntos en el jardín de MiCasita" width="1110" height="1200" loading="lazy">
+            </a>
+            <a href="imagenes/pasoapaso.jpg" aria-label="Ver en grande: perros jugando en el campo">
+              <img src="imagenes/pasoapaso.jpg" alt="Perros jugando y corriendo por el campo de MiCasita" width="1200" height="800" loading="lazy">
+            </a>
+            <a href="imagenes/hero.jpg" aria-label="Ver en grande: dos perros descansando al sol">
+              <img src="imagenes/hero.jpg" alt="Dos perros descansando al sol en MiCasita" width="1295" height="1400" loading="lazy">
+            </a>
+          </div>
+        </div>
         <div class="service-detail__content" data-reveal>
           <h1>Guardería</h1>
           <p class="service-detail__intro">
@@ -77,6 +95,7 @@
         </div>
       </div>
     </section>
+
   </main>
 
   <!-- ===== Pie de página ===== -->

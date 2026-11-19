@@ -1971,6 +1971,56 @@ section[id] {
   }
 }
 
+/* ---------- 11b. Vídeo y fotos de la ficha ---------- */
+.service-detail__media {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.service-detail__video {
+  margin: 0;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  background: var(--verde-bosque);
+}
+
+.service-detail__video video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-detail__thumbs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.service-detail__thumbs a {
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1;
+  border: 1px solid var(--borde);
+  border-radius: calc(var(--radio) * 0.6);
+  background: var(--blanco);
+}
+
+.service-detail__thumbs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s var(--curva);
+}
+
+.service-detail__thumbs a:hover img,
+.service-detail__thumbs a:focus-visible img {
+  transform: scale(1.07);
+}
+
 /* ---------- 12. Movimiento y aparición ---------- */
 
 /* El CSS solo oculta los elementos si JavaScript está activo, para que la
