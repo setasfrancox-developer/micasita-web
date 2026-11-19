@@ -1804,6 +1804,21 @@ section[id] {
   color: var(--tinta-suave);
 }
 
+/* Círculo con flecha delante de cada punto. */
+.service-detail__list li::before {
+  content: "";
+  flex: 0 0 auto;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: 0.08rem;
+  border-radius: 50%;
+  background-color: rgba(212, 73, 44, 0.1);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4492c' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 6l6 6-6 6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 0.72rem;
+}
+
 .service-detail__price {
   display: flex;
   justify-content: space-between;
