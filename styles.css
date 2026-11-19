@@ -1799,24 +1799,25 @@ section[id] {
 
 .service-detail__list li {
   display: flex;
+  align-items: flex-start;
   gap: 0.7rem;
   font-size: 0.95rem;
   color: var(--tinta-suave);
 }
 
-/* Círculo con flecha delante de cada punto. */
+/* Mismo círculo con check que la lista de "Más que una guardería". */
 .service-detail__list li::before {
   content: "";
   flex: 0 0 auto;
-  width: 1.2rem;
-  height: 1.2rem;
-  margin-top: 0.08rem;
+  width: 22px;
+  height: 22px;
+  margin-top: 0.15rem;
   border-radius: 50%;
-  background-color: rgba(212, 73, 44, 0.1);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4492c' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 6l6 6-6 6'/%3E%3C/svg%3E");
+  background-color: var(--verde-suave);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235a5360' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 0.72rem;
+  background-size: 13px;
 }
 
 .service-detail__price {
